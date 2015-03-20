@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear_round">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0:00:000"
+        android:layout_marginTop="40dp"
+        android:textSize="35sp"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/lv_laps"
+        android:layout_below="@+id/tv_time"
+        android:layout_above="@+id/ll_control_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_control_container"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageButton
+            android:id="@+id/ib_start"
+            android:src="@mipmap/ic_action_playback_play"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:scaleType="fitEnd"
+            android:background="@color/green"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/ib_stop"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:scaleType="fitStart"
+            android:src="@mipmap/ic_action_reload"
+            android:background="@color/blue"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ib_lock"
+        android:src="@mipmap/ic_action_lock_open"
+        android:padding="8dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button"
+        android:layout_width="55dp"
+        android:layout_height="55dp" />
+
+</RelativeLayout>
