@@ -1,10 +1,6 @@
 # Project description
 A Stopwatch/Timer for the Android Wear platform. Solutions provides 2 projects: one for the Android Wear platform and another for the classic Android platform. Application provides synchronization between the platforms.
 
-#Known Issues
-
-The times shown on wear and mobile are not the same because the stopwatch-implementation is based on System.upTimeMillis(), which is different for both devices. Have to find a way to synchronize the startTime between the devices.
-
 #License
 
 [Apache Licence 2.0](http://www.apache.org/licenses/LICENSE-2.0)
