@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">WearStopWatch</string>
-    <string name="hello_round">Hello Round World!</string>
-    <string name="hello_square">Hello Square World!</string>
+
+    <string name="stop_watch">Stopwatch</string>
+    <string name="timer">Timer</string>
+
+    <string name="timer_start">START</string>
+    <string name="timer_stop">STOP</string>
+    <string name="timer_finished">Timer finished</string>
 </resources>

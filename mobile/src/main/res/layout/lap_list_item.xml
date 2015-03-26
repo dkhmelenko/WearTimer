@@ -6,9 +6,10 @@
 
     <TextView
         android:id="@+id/tv_text"
-        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="7dp"/>
 
 </LinearLayout>
