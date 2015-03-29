@@ -19,19 +19,19 @@
         </activity>
 
         <activity
-            android:name=".activity.stopwatch.StopWatchActivity"
+            android:name=".activity.StopWatchActivity"
             android:label="@string/stop_watch" />
 
         <activity
-            android:name=".activity.timer.TimerActivity"
+            android:name=".activity.TimerActivity"
             android:label="@string/timer" />
 
         <service
-            android:name=".activity.stopwatch.StopWatchService"
+            android:name=".service.StopWatchService"
             android:enabled="true" />
 
         <service
-            android:name=".activity.timer.TimerService"
+            android:name=".service.TimerService"
             android:enabled="true" />
 
     </application>

@@ -1,4 +1,4 @@
-package com.cologne.hackaton.wearstopwatch.activity;
+package com.cologne.hackaton.wearstopwatch;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.cologne.hackaton.wearstopwatch.R;
 import com.cologne.hackaton.wearstopwatch.timelib.model.Lap;
 import com.cologne.hackaton.wearstopwatch.timelib.utils.StringUtils;
 
@@ -48,9 +47,6 @@ public class LapAdapter extends ArrayAdapter<Lap> {
         return convertView;
     }
 
-    /**
-     * View holder
-     */
     private class LapHolder {
         private TextView mText;
     }
