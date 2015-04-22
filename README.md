@@ -1,5 +1,19 @@
 # Project description
-A Stopwatch/Timer for the Android Wear platform. Solutions provides 2 projects: one for the Android Wear platform and another for the classic Android platform. Application provides synchronization between the platforms.
+Improved Stopwatch and Timer for the Android Wear platform.
+This solutions provides 2 projects: one for the Android Wear platform and another for the classic Android platform (handheld).
+Features:
+- Stopwatch with a background work
+- Stopwatch lap times
+- Lap synchronization with handheld device
+- Stopwatch locking
+- Countdown timer with background work
+- Interval for setting timer is 1 sec
+- Showing notification when timer is elapsed
+
+[![Wear Stopwath on Google Play Store](http://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.cologne.hackaton.wearstopwatch)
+
+#Contribution
+If you have any suggestion, feel free to create pull request.
 
 #License
 
