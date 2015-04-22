@@ -12,6 +12,11 @@ Features:
 
 [![Wear Stopwath on Google Play Store](http://developer.android.com/images/brand/en_generic_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.cologne.hackaton.wearstopwatch)
 
+#User libraries
+- [Android appcompat v7](https://github.com/android/platform_frameworks_support/tree/master/v7/appcompat)
+- [Butterknife](https://github.com/JakeWharton/butterknife)
+- [EventBus](https://github.com/greenrobot/EventBus)
+
 #Contribution
 If you have any suggestion, feel free to create pull request.
 
