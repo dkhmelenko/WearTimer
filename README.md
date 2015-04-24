@@ -1,4 +1,6 @@
 # Project description
+[![Build Status on Travis:](https://travis-ci.org/brave-warrior/WearTimer.svg?branch=master)](https://travis-ci.org/brave-warrior/WearTimer)
+
 Improved Stopwatch and Timer for the Android Wear platform.
 This solutions provides 2 projects: one for the Android Wear platform and another for the classic Android platform (handheld).
 Features:
