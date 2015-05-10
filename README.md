@@ -16,7 +16,6 @@ Features:
 
 #User libraries
 - [Android appcompat v7](https://github.com/android/platform_frameworks_support/tree/master/v7/appcompat)
-- [Butterknife](https://github.com/JakeWharton/butterknife)
 - [EventBus](https://github.com/greenrobot/EventBus)
 
 #Contribution
